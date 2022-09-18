@@ -1,0 +1,188 @@
+63  git clone https://github.com/ShannonDemon/command-line-murder-mystery.git
+   64  ls
+   65  cd command-line-murder-mystery/
+   66  ls
+   67  cat instructions 
+   68  cd mystery/
+   69  ls
+   70  cd ..
+   71  ls
+   72  cd mystery/
+   73  cd crimescene 
+   74  cat crimescene 
+   75  cat crimescene | grep "CLUE"
+   76  ls
+   77  grep "AAA" memberships
+   78  cd memberships/
+   79  ls
+   80  cd AAA
+   81  cat AAA
+   82  cd ..
+   83  ls
+   84  cd people 
+   85  Head people
+   86  cd ..
+   87  ls
+   88  cd mystery/
+   89  cat crimescene | grep "CLUE"
+   90  ls
+   91  Head streets
+   92  cd streets/
+   93  ls
+   94  pwd
+   95  cd ..
+   96  grep "Annabel" people
+   97  cat crimescene | grep "CLUE"
+   98  cd streets/Hart_Place 
+   99  cd streets/
+  100  Head Hart_Place 
+  101  head Buckingham_Place 
+  102  head Mattapan_Street 
+  103  head Haley_Street 
+  104  cd ..
+  105  cat crimescene | grep "CLUE"
+  106  grep "Annabel" people
+  107  cd memberships/
+  108  grep "Annabel" AAA
+  109  ls
+  110  grep "Annabel" Delta_SkyMiles 
+  111  cd AAA
+  112  cd Delta_SkyMiles 
+  113  grep "Annabel" Museum_of_Bash_History 
+  114  grep "Annabel" delta.txt 
+  115  cat grep "Annabel" delta.txt 
+  116  cat delta.txt | grep "Annabel"
+  117  cat museum.txt | grep "Annabel"
+  118  cat library.txt | grep "Annabel"
+  119  cd ..
+  120  cd interviews/
+  121  ls
+  122  cd ..
+  123  ls
+  124  grep "Annabel" people
+  125  head Buckingham_Place 
+  126  cd streets/
+  127  head Buckingham_Place 
+  128  grep "blond spiky hair and a New Zealand accent" Buckingham_Place 
+  129  head grep " blond spiky" Buckingham_Place 
+  130  grep -i"blond spiky hair and a New Zealand accent" Buckingham_Place 
+  131  grep "ATM" Buckingham_Place 
+  132  cd ..
+  133  grep "Annabel" people
+  134  head people 
+  135  grep "Annabel" AAA
+  136  cd memberships/
+  137  grep "Annabel" AAA
+  138  cat delta.txt | grep "Annabel"
+  139  cat museum.txt | grep "Annabel"
+  140  grep "Annabel" Museum_of_Bash_History 
+  141  cd ..
+  142  ls
+  143  cd streets/
+  144  head Mattapan_Street 
+  145  grep "blonde" Mattapan_Street 
+  146  grep "blond" Mattapan_Street 
+  147  tail Mattapan_Street 
+  148  tail Buckingham_Place 
+  149  cd ..
+  150  ls
+  151  cd ..
+  152  ls
+  153  cat hint1
+  154  cat hint2
+  155  cat hint3
+  156  cd mystery/
+  157  ls
+  158  head vehicles 
+  159  grep"Height: 6"* vehicles 
+  160  grep "Height: 6"* vehicles 
+  161  grep "Height: 6*" vehicles 
+  162  head vehicles 
+  163  cd ..
+  164  ls
+  165  cat hint4
+  166  cd mystery/
+  167  ls
+  168  cat crimescene | grep "CLUE" 
+  169  grep -i "Height: 6." vehicles 
+  170  grep "Height: 6." vehicles 
+  171  head vehicles 
+  172  grep -B 1 "Height: 6." vehicles 
+  173  grep -B 1 "Owner: Annabel" vehicles 
+  174  grep -A 1 "Owner: Annabel" vehicles 
+  175  grep "Annabel" people 
+  176  grep -A 1 "Owner: Oluwasegun" vehicles 
+  177  cd ..
+  178  ls
+  179  cat hint3
+  180  cat hint4
+  181  cat hint5
+  182  cd mystery/
+  183  ls
+  184  head vehicles 
+  185  grep -B 1 "Height: 6." vehicles 
+  186  ls
+  187  cat crimescene | grep "CLUE"
+  188  grep "*Annabel*" people 
+  189  grep "*Annabel" people 
+  190  grep "Annabel." people 
+  191  cd ..
+  192  cat hint5
+  193  cd mystery/
+  194  head -n 173 streets/Mattapan_Street | tail -n 1
+  195  ls
+  196  cd interviews/
+  197  cat INTERVIEW #9437737
+  198  cat #9437737
+  199  ls interview
+  200  ls
+  201  cat interview-9437737
+  202  cd ..
+  203  grep "Annabel" people 
+  204  head -n 179 streets/Buckingham_Place | tail -n 1
+  205  cd interviews/
+  206  cat interview-699607
+  207  cd ..
+  208  head people 
+  209  head vehicles 
+  210  grep "License Plate L337.9" vehicles 
+  211  grep -B 2 "Color: Blue" vehicles 
+  212  grep -A 4 "License Plate L337WR9" vehicles 
+  213  grep -A 4 "License Plate L337WR9" vehicles 
+  214  cd ..
+  215  cd mystery/
+  216  ls
+  217  cd memberships/
+  218  grep "Jacqui Maher" AAA
+  219  grep "Jacqui Maher" Delta_SkyMiles 
+  220  grep -B "Jacqui Maher" Delta_SkyMiles 
+  221  grep -B 3 "Jacqui Maher" Delta_SkyMiles 
+  222  grep "Jacqui Maher" museum.txt 
+  223  grep "Jacqui Maher" library.txt 
+  224  ls
+  225  cat AAA | grep "Jacqui Maher"
+  226  cat Museum_of_Bash_History | grep "Jacqui Maher"
+  227  cd ..
+  228  ls
+  229  cat crimes | grep "CLUE"
+  230  cat crimescene | grep "CLUE"
+  231  cd ..
+  232  ls
+  233  cat hint6
+  234  cat hint7
+  235  cat hint8
+  236  cd mystery/
+  237  ls
+  238  cd memberships/
+  239  cd ..
+  240  cat crimescene | "CLUE"
+  241  cat crimescene | grep "CLUE"
+  242  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  243  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher" 
+  244  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Jacqui Maher" 
+  245  cd memberships/
+  246  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep -c "Jacqui Maher" 
+  247  cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jacqui Maher" 
+
+  The Killer: Jacqui Maher.
+  
